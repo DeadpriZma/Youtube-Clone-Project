@@ -65,5 +65,4 @@ This project is a YouTube inspired educational project created for learning and 
 
 ## Author
 
-Nathan C.
-GitHub: https://github.com/DeadpriZma
+Nathan C. - GitHub: https://github.com/DeadpriZma
