@@ -1,0 +1,37 @@
+.recommended{
+  flex-basis:30%;
+}
+
+.side__video{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:8px;
+}
+
+.info{
+  flex-basis:49%;
+}
+
+.rec__thumbnail{
+  flex-basis:49%;
+  width:50%;
+}
+
+.rec__title{
+  font-size:15px;
+  margin-bottom:5px;
+}
+
+.rec__name{
+  font-size:13px;
+}
+
+.rec__views{
+  font-size:13px;
+}
+
+@media (max-width:900px){
+  .recommended{
+    flex-basis: 100%;
+  }
+}

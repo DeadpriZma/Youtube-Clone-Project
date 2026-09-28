@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+a{
+  text-decoration:none;
+  color:#5a5a5a
+}
+
+img{
+  cursor:pointer;
+}
+
+.flex-div{
+  display:flex;
+  align-items: center;
+}
+
+
+.darkmode {
+  background: #181818;
+  color: white;
+  min-height: 100vh;
+}
+
+.darkmode .container {
+    background: #181818;
+}
+
+.darkmode .feed {
+    background: #181818;
+}
+
+.darkmode a {
+    color: white;
+}
+
+.darkmode h1,
+.darkmode h2,
+.darkmode h3,
+.darkmode h4,
+.darkmode h5,
+.darkmode p,
+.darkmode span {
+    color: white;
+}
