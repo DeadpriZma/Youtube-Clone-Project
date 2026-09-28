@@ -28,20 +28,24 @@ A responsive YouTube clone built with React and Vite. This project recreates cor
 
 ## Project Structure
 
+```text
 src/
 ├── assets/
 ├── components/
+│   ├── Feed/
 │   ├── NavBar/
 │   ├── SideBar/
-│   └── ...
+│   ├── PlayVideo/
+│   └── Recommended/
 ├── pages/
 │   ├── Home/
 │   └── Video/
 ├── App.jsx
 ├── main.jsx
 └── data.js
+```
 
-##To get started:
+## To get started:
 
 1. Clone the repo
 git clone https://github.com/DeadpriZma/youtube-clone-NC.git
@@ -55,11 +59,11 @@ npm install
 4. Start Dev Server (in terminal)
 npm run dev
 
-##Disclaimer
+## Disclaimer
 
 This project is a YouTube inspired educational project created for learning and development purposes. It is NOT affiliated with or endorsed by YouTube or Google.
 
-##Author
+## Author
 
 Nathan C.
 GitHub: https://github.com/DeadpriZma
