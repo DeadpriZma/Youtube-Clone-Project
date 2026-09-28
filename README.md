@@ -1,16 +1,65 @@
-# React + Vite
+# YouTube Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive YouTube clone built with React and Vite. This project recreates core YouTube functionality and UI while using the YouTube Data API to fetch real video content.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse popular YouTube videos
+- Filter videos by category
+- Search functionality UI
+- Watch videos through a dedicated video page
+- Display video titles, thumbnails, channels, views, and upload dates
+- Like, dislike, share, and save buttons
+- Responsive layout
+- Collapsible sidebar navigation
+- Light and dark mode
+- Dynamic routing with React Router
+- YouTube Data API integration
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+- React Router
+- YouTube Data API
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+src/
+├── assets/
+├── components/
+│   ├── NavBar/
+│   ├── SideBar/
+│   └── ...
+├── pages/
+│   ├── Home/
+│   └── Video/
+├── App.jsx
+├── main.jsx
+└── data.js
+
+##To get started:
+
+1. Clone the repo
+git clone https://github.com/DeadpriZma/youtube-clone-NC.git
+
+2. Navigate to the project (in terminal)
+cd youtube-clone-NC 
+
+3. Install Dependencies (in terminal)
+npm install
+
+4. Start Dev Server (in terminal)
+npm run dev
+
+##Disclaimer
+
+This project is a YouTube inspired educational project created for learning and development purposes. It is NOT affiliated with or endorsed by YouTube or Google.
+
+##Author
+
+Nathan C.
+GitHub: https://github.com/DeadpriZma
